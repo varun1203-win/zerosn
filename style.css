@@ -1,0 +1,69 @@
+
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20%;
+  
+  float: left;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+
+i.icon-blue {
+  color: rgb(19, 144, 216);
+}
+
+i.icon-green {
+  color: green;
+}
+
+i.icon-red {
+  color: rgb(218, 90, 111);
+}
+
+i.icon-brown {
+  color: brown;
+}
